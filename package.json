@@ -1,0 +1,51 @@
+{
+  "name": "api_surtishapp",
+  "version": "1.0.0",
+  "description": "API for SurtiShapp project",
+  "main": "index.js",
+  "private": false,
+  "engines": {
+    "node": "12.*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodevs-ti/SurtiShapp_api.git"
+  },
+  "keywords": [
+    "SurtiShapp",
+    "api",
+    "backend",
+    "Database",
+    "kodevs",
+    "mongoDB",
+    "nodejs"
+  ],
+  "author": "@EveFer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kodevs-ti/SurtiShapp_api/issues"
+  },
+  "homepage": "https://github.com/kodevs-ti/SurtiShapp_api#readme",
+  "dependencies": {
+    "aws-sdk": "^2.691.0",
+    "bcrypt": "^4.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.14",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "standard": "^14.3.4"
+  }
+}
